@@ -8,9 +8,10 @@ import matplotlib.patches as patches
 
 class graphFunctions(FigureCanvas):
     def __init__(self, parent=None):
-        plt.style.use('dark_backgroud')
+        plt.style.use('dark_background')
         self.fig, self.ax = plt.subplots()
         super().__init__(self.fig)
+
      
     def plot_gradient_bar(self):
         value = 70

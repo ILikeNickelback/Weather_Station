@@ -64,7 +64,11 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
-           <widget class="QLCDNumber" name="temperatureLCD"/>
+           <widget class="QLCDNumber" name="temperatureLCD">
+            <property name="mode">
+             <enum>QLCDNumber::Bin</enum>
+            </property>
+           </widget>
           </item>
           <item>
            <widget class="QLCDNumber" name="humidityLCD"/>
